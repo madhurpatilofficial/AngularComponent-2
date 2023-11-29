@@ -1,2 +1,8 @@
 <p>child-component works!</p>
+
+<ul>
+    <li *ngFor="let emp of childMessage">
+        {{ emp.id }} :- {{emp.name}} : - {{emp.email}}
+    </li>
+</ul>
 <h1>Message from Parent: {{childMessage}}</h1>
